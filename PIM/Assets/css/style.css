@@ -1,0 +1,108 @@
+﻿*{
+    box-sizing:border-box;
+}
+
+
+html, body{
+    margin:0;
+
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color:#F9F9F9;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+}
+.Titulo{
+font-weight: bold;
+font-size:large;
+margin:20px 0px 20px 0px;
+color:#333;
+           
+}
+.Msg{
+    color:#F00;
+
+}
+#formLogin {
+    height: 100%;
+    background-image: url(../img/suplements.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+#Login {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    border-color: gainsboro;
+    margin: 10% 42% 10% 42%;
+    box-shadow: 0px 0px 100px rgba(0,0,0,0.9);
+    text-align: center;
+}
+#InternoLogin {
+    margin: 0px 25px 0px 25px;
+}
+#txbDS_Usuario {
+    margin-bottom: 5px;
+}
+.Label {
+    margin-top: 5px;
+    margin-bottom: 2px;
+    font-weight: bold;
+}
+
+.TextBox {
+    border-radius: 5px;
+    border: 2px solid #DCDCDC;
+    font-size: 15px;
+    padding: 10px 7px;
+    margin-bottom: 10px;
+}
+.Button {
+    height: 50px;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+div#InternoLogin #lblDS_Usuario, div#InternoLogin #lblDS_Senha {
+    text-align: left;
+}
+
+div#InternoLogin #txbDS_Usuario, div#InternoLogin #txbDS_Senha {
+    width: 100%;
+}
+#btnAcessar {
+    width: 100%;
+    background-color: #32CD32;
+    color: #ffffff;
+    opacity: 0.5
+}
+
+    #btnAcessar:enabled {
+        opacity: 1;
+    }
+
+    #btnAcessar:disabled {
+        cursor: not-allowed;
+    }
+
+    #btnAcessar:not([disabled]):hover {
+        opacity: 0.9;
+        transform: translateY(-2px);
+        box-shadow: 0 10px 6px #999;
+        transition: all .2s ease-in-out
+    }
+
+    #btnAcessar:active {
+        box-shadow: 0 5px #666;
+        transform: translateY(2px);
+    }
+
+    #btnAcessar:focus {
+        outline: none;
+    }
